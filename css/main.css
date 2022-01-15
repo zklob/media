@@ -1,0 +1,408 @@
+body {
+    position: relative;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    color: #282F3D;
+    font: normal normal normal 14px/1.6 'Open Sans',sans-serif;
+    top: initial!important;
+	min-height: 100%;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+	min-height:900px;
+	position:relative;
+	margin-top:15px;
+}
+header{
+	position: absolute;
+    width: 190px;
+    height: 35px;
+    margin: 12px 0 0 0;
+    font-size: 0;
+    background: #fff !important;
+}
+#logo{
+    height: 35px;
+    width: 190px;
+    background: url(../img/logo.svg) 0 0/180px auto no-repeat;
+    margin: 0 auto;
+}
+article{
+	width: 600px;
+    height: 580px;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 110px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 6px;
+}
+#form-b{
+	padding: 20px;
+    overflow: auto;
+    font-size: 0;
+    position: relative;
+    box-sizing: border-box;
+	margin:0;
+	background:#292929;
+	border-radius: 6px;
+}
+#icon-rar{
+	background: url(../img/file-zip.png) no-repeat;
+	display: inline-block;
+    width: 46px;
+    height: 58px;
+    margin-right: 15px;
+}
+#label-btn{
+	position: absolute;
+    top: 25px;
+    left: 80px;
+    right: 290px;
+}
+#form-b .file-name{
+	margin-bottom: 8px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+	
+}
+#file-ch{
+	margin-left: -40px;
+}
+#file-ch ul li{
+	float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    position: relative;
+	cursor:pointer;
+}
+#file-ch ul li img{
+	width: 100%;
+}
+#btn{
+	border-radius: 4px;
+    color: #fff;
+    background-color: #6c3;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+	height:60px;
+	width:250px;
+	line-height:60px;
+	text-align:center;
+}
+/*-----------------------------------------------------form-i----------------------*/
+a {
+    text-decoration: none;
+    color: #07F;
+}
+#form-i{
+	position: relative;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 20px 20px 0;
+}
+#intro{
+	width: 100%;
+    background-position: 0 0!important;
+	background: url(../img/file-zip.png) no-repeat;
+    height: 50px;
+    position: static;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 8px;
+    margin-bottom: 20px;
+}
+#intro>div {
+    margin: 0 240px 0 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#intro .file-name {
+	font-weight: 300;
+    color: #787878;
+}
+#intro #file-type{
+	font-weight: 700;
+    color: #000;
+}
+.details {
+    font-weight: bold;
+    margin: 0 240px 20px 0;
+	list-style: none;
+    padding: 0;
+	font-size: 14px;
+}
+.details span {
+    font-weight: normal;
+}
+.details .d {
+    font-weight: 700;
+}
+.description h6 {
+    font-size: 13px;
+    margin: 0 240px 12px 0;
+}
+.description p {
+    margin: 0 240px 12px 0;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    width: 213px;
+    top: 20px;
+}
+.sidebar>div {
+    padding: 10px;
+    background: #eee;
+    margin-bottom: 10px;
+}
+.sidebar .filename {
+    display: inline-block;
+    font-weight: bold;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sidebar ul {
+    margin-top: 10px;
+	list-style: none;
+    padding: 0;
+}
+
+.Download-compatibility>div {
+    margin-bottom: 15px;
+}
+.sidebar .filename {
+    display: inline-block;
+    font-weight: bold;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.g-Select {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0;
+    border: 0 solid #E8E9EC;
+    border-width: 0 0 1px;
+    background: #fff url(../img/arrow_dropdown.svg) right center no-repeat;
+    color: #282F3D;
+    margin: 0;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    transition: all .1s linear 0s;
+	width: 100%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.Download-compatibilityStatus {
+    font-size: 11px;
+    line-height: 14px;
+}
+.Download-compatibilityStatus.is-compatible span {
+    background: url(../img/check_circle_green.svg) center / 18px no-repeat;
+}
+.Download-compatibilityStatus span {
+    height: 18px;
+    width: 18px;
+    float: left;
+}
+.Download-compatibilityStatus p {
+    margin-left: 28px;
+}
+.apps>ul a {
+    display: block;
+    height: 31px;
+    padding-left: 43px;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 4px;
+    padding-top: 5px;
+    position: relative;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.DLExtraInfo-wrap {
+    position: absolute;
+    top: 700px;
+    left: 0;
+}
+.DLExtraInfo {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f4f4f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 960px;
+}
+.DLExtraInfo-column:first-child {
+    padding-left: 0;
+}
+
+.DLExtraInfo-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-content: flex-start;
+    padding: 0 25px;
+}
+.DLExtraInfo-uploadLocationMapBg.Continent {
+    background: #4cacff url(../img/world.svg) center / contain no-repeat;
+}
+.DLExtraInfo-uploadLocationMap {
+    height: 227px;
+    background: #4cacff;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.06);
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+}
+.DLExtraInfo-uploadLocationMap span {
+    display: inline-block;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 11px;
+    background-color: rgba(0,0,0,.2);
+    position: relative;
+    z-index: 1;
+}
+.DLExtraInfo-uploadLocationRegion.continent-as {
+    background-image: url(../img/continent-as.svg);
+}
+
+.DLExtraInfo-uploadLocationRegion {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.DLExtraInfo-uploadLocation .DLExtraInfo-sectionGraphic {
+    width: 80px;
+    height: 50px;
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.flag-ind, .flag-in, .flag-356, .flag-ioc-ind, .flag-fifa-ind {
+    background-image: url(../img/ind.svg);
+}
+.flag {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+}
+.DLExtraInfo-sectionGraphic {
+    background-color: #fff;
+    height: 96px;
+    width: 160px;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.06);
+    margin: 0 30px 15px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.DLExtraInfo-sectionDetails {
+    flex: 1;
+}
+.DLExtraInfo-column:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+.DLExtraInfo-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-content: flex-start;
+    padding: 0 25px;
+}
+.DLExtraInfo:last-child {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.DLExtraInfo {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f4f4f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 960px;
+}
+.DLExtraInfo-virusTotalImage {
+    background-image: url(../img/flag.svg);
+}
+.DLExtraInfo-sectionGraphicCenter {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.DLExtraInfo-accountStatusImage {
+    background-image: url(../img/mf_round.svg);
+}
+.browser-chrome {
+    background-image: url(../img/browser_chrome.svg);
+}
+.DLExtraInfo-sectionIcon {
+    width: 72px;
+    height: 72px;
+    margin: 0 30px 15px 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer {
+    padding: 0px;
+    width: 100%;
+    background-color: #f3f3f3;
+    height: auto;
+    min-height: 60px;
+    color: #ADADAD;
+    box-shadow: inset 0 1px 0px 0 rgba(0,0,0,.03);
+	text-align:center;
+	line-height: 60px;
+}
